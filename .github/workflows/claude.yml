@@ -31,6 +31,7 @@ jobs:
           fetch-depth: 1
 
       - name: Project Setup
+        working-directory: uigen
         run: |
           npm run setup
           npm run dev:daemon
@@ -41,6 +42,6 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           claude_args: |
-            --system-prompt "The project is already set up with all dependencies installed. The server is already running at localhost:3000. Logs from it are being written to logs.txt. If needed, you can query the db with the 'sqlite3' cli. If needed, use the mcp__playwright set of tools to launch a browser and interact with the app."
+            --system-prompt "The Next.js project lives in the 'uigen' subdirectory of this repo (not the repo root) - cd into it before running any npm/sqlite3 commands. It is already set up with all dependencies installed and the dev server is already running at localhost:3000. Logs from it are being written to uigen/logs.txt. If needed, you can query the db with the 'sqlite3' cli. If needed, use the mcp__playwright set of tools to launch a browser and interact with the app."
             --mcp-config '{"mcpServers":{"playwright":{"command":"npx","args":["@playwright/mcp@latest","--allowed-origins","localhost:3000;cdn.tailwindcss.com;esm.sh"]}}}'
             --allowedTools "Bash(npm:*),Bash(sqlite3:*),mcp__playwright__browser_snapshot,mcp__playwright__browser_click,mcp__playwright__browser_navigate,mcp__playwright__browser_type,mcp__playwright__browser_take_screenshot"
