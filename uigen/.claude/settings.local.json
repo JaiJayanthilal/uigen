@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm audit *)",
+      "Bash(pkill -f \"next dev --turbopack\" -o)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_type",
+      "Bash(npm run *)",
+      "Bash(lsof *)",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_close"
+    ]
+  }
+}

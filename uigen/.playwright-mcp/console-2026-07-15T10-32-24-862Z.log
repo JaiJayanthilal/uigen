@@ -1,0 +1,9 @@
+[     757ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[     820ms] [LOG] [Fast Refresh] done in 163ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14891
+[   14821ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[   14854ms] [LOG] [Fast Refresh] done in 134ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14891
+[   16319ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:16383
+[   17921ms] [LOG] [Fast Refresh] done in NaNms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14891
+[   18119ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[   18201ms] [LOG] [Fast Refresh] done in 182ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14891
+[   20624ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:16383

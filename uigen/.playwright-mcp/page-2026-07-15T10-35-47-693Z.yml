@@ -1,0 +1,25 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e3]:
+    - generic [ref=f2e5]:
+      - heading "React Component Generator" [level=1] [ref=f2e7]
+      - generic [ref=f2e9]:
+        - generic [ref=f2e53]:
+          - generic [ref=f2e54]: Create a simple pricing card component
+          - generic [ref=f2e71]:
+            - generic [ref=f2e72]: Creating App.jsx
+            - generic [ref=f2e75]: Generating...
+        - generic [ref=f2e20]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=f2e21]
+          - button [disabled] [ref=f2e22]
+    - separator [ref=f2e26]
+    - generic [ref=f2e28]:
+      - generic [ref=f2e29]:
+        - tablist [ref=f2e31]:
+          - tab "Preview" [selected] [ref=f2e32]
+          - tab "Code" [ref=f2e33]
+        - generic [ref=f2e34]:
+          - button "Sign In" [ref=f2e35]
+          - button "Sign Up" [ref=f2e36]
+      - iframe [ref=f2e79]:
+        
+  - alert [ref=f2e47]

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sort -u -t: -k3)",
+      "Bash(find /home/jaij/Claude-Mastery/uigen -maxdepth 3 -iname \"*.vscode*\" -o -iname \"settings.json\" 2>/dev/null; echo \"---\"; cat /home/jaij/Claude-Mastery/uigen/uigen/.vscode/settings.json 2>/dev/null; echo \"---global---\"; cat ~/.config/Code/User/settings.json 2>/dev/null)",
+      "Read(//home/jaij/.config/Code/User/**)",
+      "Skill(run)",
+      "Bash(timeout 30 bash -c 'until curl -sf http://localhost:3000 >/dev/null; do sleep 1; done')",
+      "Bash(npm ls *)",
+      "Bash(pkill -f \"next dev --turbopack\")",
+      "Bash(npm run *)",
+      "Skill(claude-api)",
+      "mcp__playwright"
+    ]
+  }
+}
