@@ -8,7 +8,15 @@
       "Bash(npm run *)",
       "Bash(lsof *)",
       "mcp__playwright__browser_snapshot",
-      "mcp__playwright__browser_close"
+      "mcp__playwright__browser_close",
+      "Bash(curl -s https://api.github.com/repos/cli/cli/releases/latest)",
+      "Bash(mkdir -p ~/.local/bin)",
+      "Bash(tar -xzf /tmp/claude-1001/-home-jaij-Claude-Mastery-uigen-uigen/6fb8d5db-97c3-47ff-b1ea-bae48eb5874f/scratchpad/gh.tar.gz -C /tmp/claude-1001/-home-jaij-Claude-Mastery-uigen-uigen/6fb8d5db-97c3-47ff-b1ea-bae48eb5874f/scratchpad)",
+      "Bash(cp /tmp/claude-1001/-home-jaij-Claude-Mastery-uigen-uigen/6fb8d5db-97c3-47ff-b1ea-bae48eb5874f/scratchpad/gh_2.96.0_linux_amd64/bin/gh ~/.local/bin/gh)",
+      "Bash(chmod +x ~/.local/bin/gh)",
+      "Bash(~/.local/bin/gh --version)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }
