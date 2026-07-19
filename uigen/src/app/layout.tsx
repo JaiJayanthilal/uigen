@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+// Dummy text added to test skills
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
