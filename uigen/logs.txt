@@ -27,3 +27,24 @@
  ○ Compiling /api/chat ...
  ✓ Compiled /api/chat in 1384ms
  POST /api/chat 200 in 10916ms
+ GET /cmrkhp5br0004fz8o41lfycrb 200 in 535ms
+ GET / 307 in 110ms
+ GET /cmrkhp5br0004fz8o41lfycrb 200 in 283ms
+ POST /cmrkhp5br0004fz8o41lfycrb 200 in 317ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 529ms
+ GET / 307 in 114ms
+ GET /cmrkhp5br0004fz8o41lfycrb 200 in 330ms
+ POST /cmrkhp5br0004fz8o41lfycrb 200 in 201ms
+ GET / 307 in 115ms
+ GET /cmrkhp5br0004fz8o41lfycrb 200 in 276ms
+ POST /cmrkhp5br0004fz8o41lfycrb 200 in 199ms
+ GET / 307 in 102ms
+ GET /cmrkhp5br0004fz8o41lfycrb 200 in 260ms
+ POST /cmrkhp5br0004fz8o41lfycrb 200 in 236ms
+ GET / 307 in 118ms
+ GET /cmrkhp5br0004fz8o41lfycrb 200 in 285ms
+ POST /cmrkhp5br0004fz8o41lfycrb 200 in 236ms
+ GET /cmrkhp5br0004fz8o41lfycrb 200 in 257ms
+ POST /cmrkhp5br0004fz8o41lfycrb 200 in 197ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 317ms
+[?25h
